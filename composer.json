@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
+        "drupal/ds": "^3.13",
         "drupal/menu_export": "^1.3"
     },
     "conflict": {
