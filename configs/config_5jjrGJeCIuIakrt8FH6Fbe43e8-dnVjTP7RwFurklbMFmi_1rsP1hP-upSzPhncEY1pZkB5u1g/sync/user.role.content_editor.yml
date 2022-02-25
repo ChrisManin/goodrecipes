@@ -10,6 +10,7 @@ dependencies:
     - comment
     - contextual
     - file
+    - media
     - node
     - path
     - system
@@ -45,4 +46,5 @@ permissions:
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'
+  - 'view own unpublished media'
   - 'view the administration theme'
