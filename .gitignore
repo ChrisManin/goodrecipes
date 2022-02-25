@@ -3,11 +3,11 @@
 # earlier versions of Drupal are tracked in `community/PHP/`
 
 # Ignore configuration files that may contain sensitive information
-/sites/*/*settings*.php
-/sites/*/*services*.yml
+/sites/*/settings.php
+/sites/*/services.yml
 
 # Ignore paths that may contain user-generated content
-/sites/*/files
+/sites/default/files/*
 /sites/*/public
 /sites/*/private
 /sites/*/files-public
@@ -26,23 +26,23 @@
 /vendor
 /modules/README.txt
 /modules/contrib/*
-# /profiles/README.txt
-# /themes/README.txt
+/profiles/*
+/themes/contrib/*
 # /sites/README.txt
 # /sites/example.sites.php
 # /sites/example.settings.local.php
 # /sites/development.services.yml
-/.csslintrc
+# /.csslintrc
 # /.editorconfig
-/.eslintignore
-/.eslintrc.json
+# /.eslintignore
+# /.eslintrc.json
 # /.gitattributes
-/.ht.router.php
-/.htaccess
+# /.ht.router.php
+# /.htaccess
 # /autoload.php
-/example.gitignore
+# /example.gitignore
 # /index.php
-/INSTALL.txt
+# /INSTALL.txt
 /LICENSE.txt
 # /README.txt
 /robots.txt
