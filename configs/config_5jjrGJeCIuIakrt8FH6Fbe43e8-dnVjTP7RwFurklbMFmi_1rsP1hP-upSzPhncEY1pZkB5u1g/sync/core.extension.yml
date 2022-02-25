@@ -20,6 +20,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  ds_switch_view_mode: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -56,6 +57,8 @@ module:
   user: 0
   views_ui: 0
   workflows: 0
+  ds: 1
+  ds_extras: 2
   views: 10
   standard: 1000
 theme:
