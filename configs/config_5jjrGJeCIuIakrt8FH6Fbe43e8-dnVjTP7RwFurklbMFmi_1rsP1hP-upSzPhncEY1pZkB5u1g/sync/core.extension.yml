@@ -7,6 +7,7 @@ module:
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
   automated_cron: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -34,10 +35,12 @@ module:
   file: 0
   filefield_paths: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
   inline_entity_form: 0
+  jsonapi: 0
   language: 0
   layout_discovery: 0
   link: 0
@@ -54,7 +57,9 @@ module:
   path: 0
   path_alias: 0
   rdf: 0
+  rest: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
