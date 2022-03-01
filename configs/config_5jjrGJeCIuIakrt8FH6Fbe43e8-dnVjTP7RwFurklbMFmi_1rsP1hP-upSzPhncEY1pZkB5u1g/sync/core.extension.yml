@@ -14,6 +14,7 @@ module:
   ckeditor: 0
   color: 0
   comment: 0
+  conditional_fields: 0
   config: 0
   contact: 0
   content_moderation: 0
@@ -25,13 +26,18 @@ module:
   editor: 0
   entity_redirect: 0
   field: 0
+  field_group: 0
+  field_group_table: 0
   field_layout: 0
   field_ui: 0
+  field_validation: 0
   file: 0
+  filefield_paths: 0
   filter: 0
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
   language: 0
   layout_discovery: 0
   link: 0
