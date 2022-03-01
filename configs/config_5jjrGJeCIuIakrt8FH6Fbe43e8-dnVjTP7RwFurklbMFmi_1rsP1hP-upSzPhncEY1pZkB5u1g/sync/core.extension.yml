@@ -2,6 +2,7 @@ _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 langcode: fr
 module:
+  address: 0
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
@@ -14,6 +15,7 @@ module:
   breakpoint: 0
   ckeditor: 0
   color: 0
+  color_field: 0
   comment: 0
   conditional_fields: 0
   config: 0
@@ -26,6 +28,7 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity_redirect: 0
+  entity_reference_revisions: 0
   field: 0
   field_group: 0
   field_group_table: 0
@@ -63,12 +66,14 @@ module:
   shortcut: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
   views_ui: 0
+  weight: 0
   workflows: 0
   ds: 1
   ds_extras: 2
