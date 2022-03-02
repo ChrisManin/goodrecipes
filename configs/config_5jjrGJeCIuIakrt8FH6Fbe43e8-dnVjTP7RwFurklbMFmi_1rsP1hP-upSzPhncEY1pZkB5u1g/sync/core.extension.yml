@@ -37,12 +37,14 @@ module:
   field_ui: 0
   field_validation: 0
   file: 0
+  file_mdm: 0
   filefield_paths: 0
   filter: 0
   hal: 0
   help: 0
   history: 0
   image: 0
+  imagemagick: 0
   inline_entity_form: 0
   jsonapi: 0
   language: 0
@@ -65,6 +67,7 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  sophron: 0
   system: 0
   taxonomy: 0
   telephone: 0
