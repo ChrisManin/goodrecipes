@@ -1,0 +1,32 @@
+uuid: 3f121334-6d11-4cb0-8849-9e29ede01160
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.unity
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: taxonomy_term.unity.default
+targetEntityType: taxonomy_term
+bundle: unity
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  langcode: true
+  path: true
+  status: true

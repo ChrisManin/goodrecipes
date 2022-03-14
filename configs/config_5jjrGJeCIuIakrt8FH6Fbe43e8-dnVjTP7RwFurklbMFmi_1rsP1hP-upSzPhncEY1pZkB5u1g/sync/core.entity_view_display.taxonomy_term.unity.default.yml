@@ -1,0 +1,15 @@
+uuid: 3849e48a-0f75-4561-95a7-1b9120830ce0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.unity
+id: taxonomy_term.unity.default
+targetEntityType: taxonomy_term
+bundle: unity
+mode: default
+content: {  }
+hidden:
+  description: true
+  langcode: true
+  search_api_excerpt: true
