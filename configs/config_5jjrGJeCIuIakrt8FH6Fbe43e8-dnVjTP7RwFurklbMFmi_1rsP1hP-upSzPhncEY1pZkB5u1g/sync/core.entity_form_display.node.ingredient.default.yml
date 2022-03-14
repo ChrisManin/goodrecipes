@@ -1,0 +1,80 @@
+uuid: 7080c3b6-bbe8-4d3e-91ff-08e57f75f524
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ingredient.field_ingredient_measure_unity
+    - field.field.node.ingredient.field_ingredient_quantity
+    - field.field.node.ingredient.field_ingredient_visual
+    - image.style.thumbnail
+    - node.type.ingredient
+  module:
+    - conditional_fields
+    - field_layout
+    - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.ingredient.default
+targetEntityType: node
+bundle: ingredient
+mode: default
+content:
+  field_ingredient_measure_unity:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        1e3fc2e3-36b2-4754-8907-b3251d03a6f8:
+          entity_type: node
+          bundle: ingredient
+          dependee: field_ingredient_quantity
+          settings:
+            state: '!collapsed'
+            condition: touched
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: ''
+            effect: show
+            effect_options: {  }
+            selector: ''
+  field_ingredient_quantity:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_ingredient_visual:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

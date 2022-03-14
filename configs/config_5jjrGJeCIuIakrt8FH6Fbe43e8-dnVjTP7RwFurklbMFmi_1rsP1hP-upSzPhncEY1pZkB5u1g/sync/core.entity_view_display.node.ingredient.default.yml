@@ -1,0 +1,51 @@
+uuid: 077e137d-b78e-4a1c-b526-27c2622ccca1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ingredient.field_ingredient_measure_unity
+    - field.field.node.ingredient.field_ingredient_quantity
+    - field.field.node.ingredient.field_ingredient_visual
+    - node.type.ingredient
+  module:
+    - image
+    - options
+    - user
+id: node.ingredient.default
+targetEntityType: node
+bundle: ingredient
+mode: default
+content:
+  field_ingredient_measure_unity:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ingredient_quantity:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ingredient_visual:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

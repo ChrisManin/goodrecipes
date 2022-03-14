@@ -1,0 +1,21 @@
+uuid: d6f4561d-8d23-4bce-809c-89c65b28beca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredient_measure_unity
+    - node.type.ingredient
+  module:
+    - options
+id: node.ingredient.field_ingredient_measure_unity
+field_name: field_ingredient_measure_unity
+entity_type: node
+bundle: ingredient
+label: 'Unité de mesure'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
