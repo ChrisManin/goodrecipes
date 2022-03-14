@@ -1,0 +1,19 @@
+uuid: 49117268-6f53-4ac9-a896-dd1e1bc99fa7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_element_ingredients
+field_name: field_element_ingredients
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
