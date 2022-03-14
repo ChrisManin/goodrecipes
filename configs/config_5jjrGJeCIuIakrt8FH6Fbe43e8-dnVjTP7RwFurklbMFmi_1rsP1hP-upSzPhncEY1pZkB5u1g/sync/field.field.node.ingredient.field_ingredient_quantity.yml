@@ -1,0 +1,23 @@
+uuid: 9f5f4bc2-9e08-42a1-8258-ab2dc479b14d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredient_quantity
+    - node.type.ingredient
+id: node.ingredient.field_ingredient_quantity
+field_name: field_ingredient_quantity
+entity_type: node
+bundle: ingredient
+label: Quantité
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
