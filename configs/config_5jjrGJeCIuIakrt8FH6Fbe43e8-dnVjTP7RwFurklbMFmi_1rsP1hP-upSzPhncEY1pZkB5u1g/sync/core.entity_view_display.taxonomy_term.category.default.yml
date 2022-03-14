@@ -1,0 +1,15 @@
+uuid: 30c377dd-e342-419c-b595-cdb194bd1e26
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.default
+targetEntityType: taxonomy_term
+bundle: category
+mode: default
+content: {  }
+hidden:
+  description: true
+  langcode: true
+  search_api_excerpt: true

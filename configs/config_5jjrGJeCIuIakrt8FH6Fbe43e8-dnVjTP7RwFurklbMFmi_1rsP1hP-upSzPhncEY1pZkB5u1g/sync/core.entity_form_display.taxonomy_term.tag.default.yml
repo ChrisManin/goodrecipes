@@ -1,0 +1,32 @@
+uuid: 6b83c47a-5c85-4464-b4b5-32100319e77a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tag
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: taxonomy_term.tag.default
+targetEntityType: taxonomy_term
+bundle: tag
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  langcode: true
+  path: true
+  status: true
