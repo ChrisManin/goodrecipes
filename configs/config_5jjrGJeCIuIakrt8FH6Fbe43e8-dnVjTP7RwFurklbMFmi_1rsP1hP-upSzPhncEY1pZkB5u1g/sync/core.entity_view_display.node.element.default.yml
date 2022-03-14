@@ -1,0 +1,30 @@
+uuid: 50f3c644-bea0-4cbe-ab78-82ca1cc8b9b0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.element.field_element_ingredients
+    - node.type.element
+  module:
+    - user
+id: node.element.default
+targetEntityType: node
+bundle: element
+mode: default
+content:
+  field_element_ingredients:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true
